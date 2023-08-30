@@ -1,5 +1,5 @@
 ﻿using ShellSECustom; //default constructor
-//Calculations calculations = new Calculations();
+                     //Calculations calculations = new Calculations();
 
 /*Console.WriteLine("Enter 2 numbers");
 double number1 = Convert.ToDouble(Console.ReadLine()); 
@@ -51,7 +51,7 @@ studentMarks.CalculateScores();*/
 
 //grade class
 
-int rollno = Convert.ToInt32(Console.ReadLine());
+/*int rollno = Convert.ToInt32(Console.ReadLine());
 string? name = Console.ReadLine();
 string? address = Console.ReadLine();
 long phno = Convert.ToInt64(Console.ReadLine());
@@ -70,6 +70,61 @@ Console.WriteLine(studentGrade.Phno);
 
 Console.WriteLine(studentGrade.CalculateTotal());
 Console.WriteLine(studentGrade.CalculateAverage());
-Console.WriteLine(studentGrade.CalculateGrade());
+Console.WriteLine(studentGrade.CalculateGrade());*/
 
 
+// Rank details no bank Details
+
+
+/*RankDetails bankDetails = new RankDetails(1234, 1234, " hsr", "Inactive");
+
+bankDetails.WelcomeMessage();
+
+Console.WriteLine("1. CustId, 2. Accno, 3. Name");
+
+int ch = Convert.ToInt32(Console.ReadLine());
+
+switch (ch) {
+    case 1:
+        bankDetails.GetAccountDetails(1234);
+        break;
+    case 2:
+        bankDetails.GetAccountDetails(1234);
+        break;
+    case 3:
+        bankDetails.GetAccountDetails(" hsr");
+        break;
+
+}
+*/
+
+
+// overriding
+/*
+UpdatedBank bankDetails = new UpdatedBank(1234, 1234, " hsr", "Inactive");
+
+bankDetails.WelcomeMessage();
+
+Console.WriteLine("1. CustId, 2. Accno, 3. Name");
+
+int ch = Convert.ToInt32(Console.ReadLine());
+
+switch (ch)
+{
+    case 1:
+        bankDetails.GetAccountDetails(1234);
+        break;
+    case 2:
+        bankDetails.GetAccountDetails(1234);
+        break;
+    case 3:
+        bankDetails.GetAccountDetails(" hsr");
+        break;
+
+}*/
+
+Bikes elebike = new Bikes("Electric Bikes", "2 Stroke", 2);
+Bikes royalEnfield = new Bikes("Petrol", "1 Stroke", 2);
+
+elebike.MakeSound("Gucci Gang");
+royalEnfield.MakeSound("BRUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU");
