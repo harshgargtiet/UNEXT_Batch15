@@ -1,4 +1,0 @@
-C:\SE Shell\C#\SEShellBasicPrograms\Simple Programs\obj\Debug\net7.0\Simple Programs.GeneratedMSBuildEditorConfig.editorconfig
-C:\SE Shell\C#\SEShellBasicPrograms\Simple Programs\obj\Debug\net7.0\Simple Programs.AssemblyInfoInputs.cache
-C:\SE Shell\C#\SEShellBasicPrograms\Simple Programs\obj\Debug\net7.0\Simple Programs.AssemblyInfo.cs
-C:\SE Shell\C#\SEShellBasicPrograms\Simple Programs\obj\Debug\net7.0\Simple Programs.csproj.CoreCompileInputs.cache
