@@ -1,20 +1,16 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-
-namespace SimplePrograms
+namespace SEShellBasicPrograms
 {
     internal class BankDetails
     {
         private int custid;
         private long accno;
         private string? name, status;
-
-
 
         public BankDetails(int custid, long accno, string? name, string? status)
         {
@@ -24,8 +20,6 @@ namespace SimplePrograms
             Status = status;
         }
 
-
-
         public int Custid { get => custid; set => custid = value; }
         public long Accno { get => accno; set => accno = value; }
         public string? Name { get => name; set => name = value; }
@@ -33,20 +27,16 @@ namespace SimplePrograms
 
         public void WelcomeMessage()
         {
-            Console.WriteLine("Hello ");
+            Console.WriteLine("Helloo......");
         }
 
-
-        // Method overloading
-        public void GetAccountDetails(int custid)
+        public void GetAccountDetails(int custid) 
         {
             if (Custid == custid)
             {
                 Console.WriteLine(Accno + " " + Name + " " + Status);
             }
         }
-
-
 
         public void GetAccountDetails(long accno)
         {
@@ -56,11 +46,9 @@ namespace SimplePrograms
             }
         }
 
-
-
         public void GetAccountDetails(string name)
         {
-            if (Name.Equals(name))
+            if (Name == name)
             {
                 Console.WriteLine(Custid + " " + Accno + " " + Status);
             }
