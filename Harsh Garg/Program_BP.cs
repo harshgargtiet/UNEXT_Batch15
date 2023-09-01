@@ -1,4 +1,5 @@
 ﻿using Basic_Programs;
+using System.Drawing;
 
 //default constructor
 //Calculations calculations = new Calculations();
@@ -73,8 +74,8 @@ Bikes olabike = new Bikes("Electric Bike","2 Stroke",2);
 Bikes thunderbird = new Bikes("RE", "Bullet", 2);
 olabike.makeSound("zzzzzzzz");
 thunderbird.makeSound("DugDugDugDug");
-*/
 
+//Exception
 try
 {
     BankAccount account = new BankAccount("1234567890", 1000);
@@ -92,4 +93,47 @@ catch (Exception ex)
 {
     Console.WriteLine($"Exception: {ex.Message}");
 }
+*/
+//Assignment - 1 [30/08/23]
+/*Dog dog = new Dog("Tyson",12);
+dog.MakeSound();
+Cat cat = new Cat("HelloKitty",7);
+cat.MakeSound();
+Bird bird = new Bird("Tweety",5);
+bird.MakeSound();*/
+//Assignment - 2 [30/08/23]
+/*Reactangle rectangle = new Reactangle("Dabba", 22.7);
+rectangle.GetInfo();
+Circle circle = new Circle("Roti", 12);
+circle.GetInfo();
+*/
+// ARRAYS
+//ArrayManipulations arrayManipulations = new ArrayManipulations();
+//arrayManipulations.disp1d();
+//arrayManipulations.disp2d();
+//arrayManipulations.dispJA();
 
+//FILE HANDLING
+//FileHandling fileHandling = new FileHandling();
+//fileHandling.CreateFile();
+//fileHandling.WriteData();
+//fileHandling.ReadData();
+//fileHandling.FileProperties();
+//fileHandling.CopyMoveFile();
+//fileHandling.DeleteFile();
+
+//NON GENERIC COLLECTIONS
+//NonGenericCollections nonGenericCollections=new NonGenericCollections();
+//nonGenericCollections.ArrayListElements();
+//nonGenericCollections.StackElements();
+//nonGenericCollections.QueueElements();
+//nonGenericCollections.HashElements();
+//nonGenericCollections.SortedListElements();
+
+//GENERIC COLLECTIONS
+GenericCollection genericCollection = new GenericCollection();
+//genericCollection.ListElements();
+//genericCollection.StackElements();
+//genericCollection.QueueElements();
+//genericCollection.HashElements();
+genericCollection.SortedListElements();
