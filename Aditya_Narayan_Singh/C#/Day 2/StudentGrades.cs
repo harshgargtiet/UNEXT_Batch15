@@ -1,55 +1,43 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-
-namespace SimplePrograms
+namespace SEShellBasicPrograms
 {
-    // Multilevel inheritance - a -> b -> c
     internal class StudentGrades : StudentMarks
     {
         private string? grade;
 
-
-
         public StudentGrades(int rollno, string name, string address, long phno,
-            int mark1, int mark2, int mark3, string grade) :
-            base(rollno, name, address, phno, mark1, mark2, mark3)
+            int mark1, int mark2, int mark3, string grade) : base (rollno, name, address,
+                phno, mark1, mark2, mark3)
         {
             Grade = grade;
         }
 
-
-
         public string? Grade { get => grade; set => grade = value; }
-
-
 
         public string CalculateGrade()
         {
             double avg = CalculateAverage();
-            if (avg >= 90)
+            if (avg >= 90) 
             {
                 Grade = "A";
             }
-            else if (avg >= 70 && avg <= 89)
+            else if (avg >=70 && avg <= 80)
             {
                 Grade = "B";
             }
-            else if (avg >= 50 && avg <= 69)
+            else if (avg >=50 && avg <= 69)
             {
                 Grade = "C";
             }
             else
-            {
-                Grade = "D";
+            { 
+                Grade = "D"; 
             }
-
-
-
             return Grade;
         }
     }
