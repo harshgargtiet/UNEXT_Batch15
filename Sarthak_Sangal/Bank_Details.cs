@@ -4,8 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-
 namespace SimplePrograms
 {
     internal class BankDetails
@@ -14,8 +12,6 @@ namespace SimplePrograms
         private long accno;
         private string? name, status;
 
-
-
         public BankDetails(int custid, long accno, string? name, string? status)
         {
             Custid = custid;
@@ -23,8 +19,6 @@ namespace SimplePrograms
             Name = name;
             Status = status;
         }
-
-
 
         public int Custid { get => custid; set => custid = value; }
         public long Accno { get => accno; set => accno = value; }
@@ -36,17 +30,14 @@ namespace SimplePrograms
             Console.WriteLine("Hello ");
         }
 
-
         // Method overloading
         public void GetAccountDetails(int custid)
         {
-            if (Custid == custid)
+            if(Custid == custid)
             {
                 Console.WriteLine(Accno + " " + Name + " " + Status);
             }
         }
-
-
 
         public void GetAccountDetails(long accno)
         {
@@ -55,8 +46,6 @@ namespace SimplePrograms
                 Console.WriteLine(Custid + " " + Name + " " + Status);
             }
         }
-
-
 
         public void GetAccountDetails(string name)
         {
