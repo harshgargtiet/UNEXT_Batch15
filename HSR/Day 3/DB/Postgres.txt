@@ -1,0 +1,3 @@
+scaffold-dbcontext "Host=localhost; Database=StudentMgmt; Username=postgres; Password=admin" Npgsql.EntityFrameworkCore.PostgreSQL -outputdir Models
+
+Inside double quotes - Connection sequence for PostgreSQL only
