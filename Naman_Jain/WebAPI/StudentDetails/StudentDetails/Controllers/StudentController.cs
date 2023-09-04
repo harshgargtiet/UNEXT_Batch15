@@ -43,5 +43,39 @@ namespace StudentDetails.Controllers
             }
 
         }
+
+        [HttpPost]
+        public async Task<ActionResult<List<Student>>> AddNewStudent(Student student)
+        {
+            var students = await _student.AddNewStudent(student);
+            return students;
+        }
+
+        [HttpPut]
+        public async Task<ActionResult<Student>> UpdateStudent(int rollno, Student student)
+        {
+            try
+            {
+                var upstudent = await _student.UpdateStudent(rollno, student);
+                return Ok(upstudent);
+            } catch (ArgumentException ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
+
+        [HttpDelete]
+        public async Task<ActionResult<List<Student>>> DeleteStudent(int rollno)
+        {
+            try
+            {
+                var students = await _student.DeleteStudent(rollno);
+                return Ok(students);
+            }
+            catch (ArgumentException ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
     }
 }
