@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using StudentDetails.Models;
 using StudentDetails.Services.Interface;
+using StudentDetails.GlobalExceptions;
 
 namespace StudentDetails.Services.ServiceClasses
 {
@@ -23,11 +24,11 @@ namespace StudentDetails.Services.ServiceClasses
         public async Task<Student> GetStudentByRollNum(int rollno)
         {
             // FindAsync only for primary key
-            var student = await _context.Students.FirstAsync(rollno);
+            var student = await _context.Students.FindAsync(rollno);
 
             if(student == null)
             {
-                throw new ArgumentException();
+                throw new ArgumentException(ExceptionDetails.exceptionMessages[0]);
             }
 
             return student;
