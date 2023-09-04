@@ -19,5 +19,18 @@ namespace StudentDetails.Services.ServiceClasses
             List<Student> students = await _context.Students.ToListAsync();
             return students;
         }
+
+        public async Task<Student> GetStudentByRollNum(int rollno)
+        {
+            // FindAsync only for primary key
+            var student = await _context.Students.FirstAsync(rollno);
+
+            if(student == null)
+            {
+                throw new ArgumentException();
+            }
+
+            return student;
+        }
     }
 }

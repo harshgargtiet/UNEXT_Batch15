@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vmuser\\Desktop\\efcore\\StudentDetails\\StudentDetails\\StudentDetails.csproj": {}
+    "C:\\Users\\vmuser\\Desktop\\UNEXT_Batch15\\Naman_Jain\\WebAPI\\StudentDetails\\StudentDetails\\StudentDetails.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vmuser\\Desktop\\efcore\\StudentDetails\\StudentDetails\\StudentDetails.csproj": {
+    "C:\\Users\\vmuser\\Desktop\\UNEXT_Batch15\\Naman_Jain\\WebAPI\\StudentDetails\\StudentDetails\\StudentDetails.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vmuser\\Desktop\\efcore\\StudentDetails\\StudentDetails\\StudentDetails.csproj",
+        "projectUniqueName": "C:\\Users\\vmuser\\Desktop\\UNEXT_Batch15\\Naman_Jain\\WebAPI\\StudentDetails\\StudentDetails\\StudentDetails.csproj",
         "projectName": "StudentDetails",
-        "projectPath": "C:\\Users\\vmuser\\Desktop\\efcore\\StudentDetails\\StudentDetails\\StudentDetails.csproj",
+        "projectPath": "C:\\Users\\vmuser\\Desktop\\UNEXT_Batch15\\Naman_Jain\\WebAPI\\StudentDetails\\StudentDetails\\StudentDetails.csproj",
         "packagesPath": "C:\\Users\\vmuser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vmuser\\Desktop\\efcore\\StudentDetails\\StudentDetails\\obj\\",
+        "outputPath": "C:\\Users\\vmuser\\Desktop\\UNEXT_Batch15\\Naman_Jain\\WebAPI\\StudentDetails\\StudentDetails\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

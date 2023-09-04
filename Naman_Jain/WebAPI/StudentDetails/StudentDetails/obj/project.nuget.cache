@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h58Xb4q/zVr55R9pCHi1F3KEyKbauerBnbP/+z2a13acWHtd8kE0IaCGJ7/wktdNcED7HSNmBfdVQz/ahRYDQA==",
+  "dgSpecHash": "JBzs5PgPXru+YEXmbAlYDHnxbckhfilEp3gYLG17LxxCqoHBTtpbGNVllSzxDBxophoVYcP9bwPxwBLuKbXzCw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vmuser\\Desktop\\efcore\\StudentDetails\\StudentDetails\\StudentDetails.csproj",
+  "projectFilePath": "C:\\Users\\vmuser\\Desktop\\UNEXT_Batch15\\Naman_Jain\\WebAPI\\StudentDetails\\StudentDetails\\StudentDetails.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vmuser\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\vmuser\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
