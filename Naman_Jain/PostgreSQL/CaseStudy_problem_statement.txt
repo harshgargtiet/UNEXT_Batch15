@@ -1,0 +1,19 @@
+Case Study: Online Order Management System
+
+You are tasked with designing a database for an online order management system. The system needs to handle customer orders, products, and inventory. Additionally, you need to implement functionality for tracking order status and managing stock quantities. Design the database schema, insert sample data, and create a stored procedure, function, and trigger to enhance the system's capabilities.
+
+Requirements:
+
+Create a table named products to store product information. Each product should have a unique product_id, a product_name, a price, and stock_quantity indicating the available stock.
+
+Create a table named orders to store order information. Each order should have a unique order_id, a customer_id, an order_date, and an order_status (e.g., "Pending", "Shipped").
+
+Insert sample data into the products and orders tables.
+
+Create a stored procedure named place_order that allows customers to place orders. The procedure should take a customer_id and a list of product IDs and quantities to be ordered. It should deduct the ordered quantities from the stock and update the order status.
+
+Create a function named get_total_price that calculates the total price of an order based on the products and quantities.
+
+Create a trigger named update_order_status_trigger that automatically updates the order status to "Shipped" when the stock quantity for all ordered products is sufficient.
+
+Your task is to design the database schema, write SQL statements to fulfill the requirements, and implement the stored procedure, function, and trigger to support the online order management system.
