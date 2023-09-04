@@ -22,13 +22,26 @@ namespace StudentDetails.Controllers
         {
             var students = await _student.GetAllStudents();
 
-            if(students ==  null)
+            if (students == null)
             {
                 return NotFound("Student List Empty");
             }
             return Ok(students);
         }
 
-       
+        [HttpGet("{rollno}")]
+        public async Task<ActionResult<Student>> GetStudentByRollNum(int rollno)
+        {
+            try
+            {
+                var student = await _student.GetStudentByRollNum(rollno);
+                return Ok(student);
+            }
+            catch (ArgumentException ex)
+            {
+                return NotFound(ex.Message);
+            }
+
+        }
     }
 }
