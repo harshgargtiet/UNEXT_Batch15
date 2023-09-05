@@ -19,6 +19,13 @@ builder.Services.AddDbContext<StudentMgmtContext>(
         )
 );
 
+builder.Services.AddDbContext<UserContext>(
+    optionsAction: options => options.UseNpgsql(
+        builder.Configuration.GetConnectionString(
+            "PostgreSQLConnectionString")
+        )
+);
+
 builder.Services.AddScoped<IStudent, StudentService>();
 // put all the configurations details before building app
 var app = builder.Build();
