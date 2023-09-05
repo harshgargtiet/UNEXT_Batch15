@@ -12,6 +12,6 @@ namespace StudentDetails.Services.Interface
 
         Task<User> UpdateUser(string username, User user);
 
-        Task<List<User>> DeleteUser(string username)
+        Task<List<User>> DeleteUser(string username);
     }
 }

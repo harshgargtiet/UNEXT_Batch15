@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using StudentDetails.Models;
 using StudentDetails.Services.Interface;
@@ -65,6 +66,7 @@ namespace StudentDetails.Controllers
         }
 
         [HttpDelete]
+        [Authorize(Roles = "admin")]
         public async Task<ActionResult<List<Student>>> DeleteStudent(int rollno)
         {
             try

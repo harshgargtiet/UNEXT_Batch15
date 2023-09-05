@@ -27,6 +27,8 @@ builder.Services.AddDbContext<UserContext>(
 );
 
 builder.Services.AddScoped<IStudent, StudentService>();
+builder.Services.AddScoped<IUser, UserService>();
+builder.Services.AddScoped<IToken, TokenService>();
 // put all the configurations details before building app
 var app = builder.Build();
 

@@ -24,7 +24,7 @@ namespace StudentDetails.Controllers
             try
             {
                 var user = await _user.GetUserByUsername(username);
-                var token = _tokenGenerator.GenerateToken(user.Username, user.Role);
+                var token = _tokenGenerator.GenerateToken(user.UserName, user.Role);
                 return Ok(token);
             }
             catch (Exception ex)

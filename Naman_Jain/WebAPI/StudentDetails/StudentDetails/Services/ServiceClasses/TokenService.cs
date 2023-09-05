@@ -43,7 +43,7 @@ namespace StudentDetails.Services.ServiceClasses
                 //  Audience = audience,
                 SigningCredentials = new SigningCredentials(
                     new SymmetricSecurityKey(secretKey),
-                    SecurityAlgorithms.HmacSha512Signature)
+                    SecurityAlgorithms.HmacSha256Signature)
             };
 
             var tokenHandler = new JwtSecurityTokenHandler();
