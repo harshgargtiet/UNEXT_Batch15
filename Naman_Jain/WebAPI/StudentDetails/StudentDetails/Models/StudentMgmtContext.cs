@@ -20,7 +20,7 @@ public partial class StudentMgmtContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-
+        
     }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
