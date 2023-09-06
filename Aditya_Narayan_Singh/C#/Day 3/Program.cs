@@ -1,5 +1,4 @@
-﻿
-using SEShellPrograms;
+﻿using SEShellPrograms;
 
 /*
 // Array Manipulation

@@ -24,10 +24,8 @@ string? address = Console.ReadLine();
 long phno = Convert.ToInt64(Console.ReadLine());
 
 // parameterised constructor
-#pragma warning disable CS8604 // Possible null reference argument.
 StudentDetails studentdetails = new StudentDetails(rollno,
     name, address, phno);
-#pragma warning restore CS8604 // Possible null reference argument.
 
 Console.WriteLine(studentdetails.Rollno);
 Console.WriteLine(studentdetails.Name);
