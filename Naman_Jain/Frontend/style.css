@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mynavbar {
+    min-height: 60px;
+    max-height: 100px;
+    background-color: rgb(128, 219, 187);
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+.navbar-list-item {}
+.mn {
+    background-color: rgb(187, 241, 223);
+    height: 90vh;
+}
+
+main{
+    background: url("dingding.jpg");
+    width: 100vw;
+    height: 90vh;
+}

@@ -1,0 +1,17 @@
+Create an HTML file with the necessary structure, including a <script> tag to link your JavaScript code.
+In your JavaScript code, write a function named "changeColor" that changes the background color of a specified element on the page.
+The function should accept two parameters: "elementId" (string) and "color" (string).
+Inside the function, use the getElementById method to select the element with the specified "elementId".
+Set the style.backgroundColor property of the selected element to the specified "color".
+Call the "changeColor" function with an element ID of your choice and a color of your choice to see the background color change.
+Write a function named "addText" that adds text content to a specified element on the page.
+The function should accept two parameters: "elementId" (string) and "text" (string).
+Inside the function, use the getElementById method to select the element with the specified "elementId".
+Set the textContent property of the selected element to the specified "text".
+Call the "addText" function with an element ID of your choice and a text string of your choice to see the content added to the element.
+Write a function named "createList" that creates an unordered list (<ul>) and appends it to a specified element on the page.
+The function should accept one parameter: "elementId" (string).
+Inside the function, use the createElement method to create a new <ul> element.
+Use the appendChild method to append the new <ul> element to the specified element with the "elementId".
+Call the "createList" function with an element ID of your choice to see the unordered list added to the specified element.
+Optional: Add additional DOM manipulation functions or operations to further explore JavaScript's capabilities in manipulating the HTML document.
