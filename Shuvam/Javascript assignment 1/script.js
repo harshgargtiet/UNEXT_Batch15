@@ -30,10 +30,14 @@ function createList(elementId) {
     }
 }
 
-// Optional: Function to remove an element
-function removeElement(elementId) {
+// Function to remove a list item from the specified element
+function removeListItem(elementId) {
     const element = document.getElementById(elementId);
-    if (element && element.parentNode) {
-        element.parentNode.removeChild(element);
+    if (element) {
+        const ul = element.querySelector("ul"); // Find the <ul> element
+        if (ul && ul.children.length > 0) {
+            // Remove the first list item (you can modify this logic as needed)
+            ul.removeChild(ul.children[0]);
+        }
     }
 }
