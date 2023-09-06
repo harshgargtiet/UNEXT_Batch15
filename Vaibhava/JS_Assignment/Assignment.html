@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Example</title>
+</head>
+<body>
+    <div id="colorDiv" style="width: 12; height: 200px; background-color: lightblue;"><center>JavaScript Assignment</center></div>
+    <div id="textDiv">Random Text</div>
+    <div id="listDiv"></div>
+
+    <!-- Buttons to trigger actions -->
+    <button onclick="changeColor('colorDiv')">Change Color</button>
+    <button onclick="addText('textDiv', 'JavaScript Assignment.')">Add Text</button>
+    <button onclick="createList('listDiv')">Create List</button>
+    <button onclick="removeText('textDiv')">Remove Text</button>
+    <button onclick="removeList('listDiv')">Remove List</button>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="Assignmentjs.js"></script>
+</body>
+</html>
