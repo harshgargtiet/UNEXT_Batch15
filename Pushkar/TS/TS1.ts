@@ -1,11 +1,11 @@
 
-// {
-// let mynumber: number  = 42;
-// let mystring= "Hello , typescript"
+{
+let mynumber: number  = 42;
+let mystring= "Hello , typescript"
 
-// console.log("my nuimber",mynumber);
-// console.log("my string",mystring);
-// }
+console.log("my nuimber",mynumber);
+console.log("my string",mystring);
+}
 
 // let mynumber = "hello"
 // console.log("my nuimber outside",mynumber);
