@@ -1,4 +1,4 @@
-/* Creating table named books contains book_id, title,
+./* Creating table named books contains book_id, title,
 author, publication date, price and stock quantity*/
 CREATE TABLE books (
     book_id serial PRIMARY KEY,
