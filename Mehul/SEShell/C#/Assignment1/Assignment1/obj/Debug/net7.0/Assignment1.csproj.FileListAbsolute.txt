@@ -1,0 +1,14 @@
+C:\SEShell\C#\Assignment1\Assignment1\obj\Debug\net7.0\Assignment1.GeneratedMSBuildEditorConfig.editorconfig
+C:\SEShell\C#\Assignment1\Assignment1\obj\Debug\net7.0\Assignment1.AssemblyInfoInputs.cache
+C:\SEShell\C#\Assignment1\Assignment1\obj\Debug\net7.0\Assignment1.AssemblyInfo.cs
+C:\SEShell\C#\Assignment1\Assignment1\obj\Debug\net7.0\Assignment1.csproj.CoreCompileInputs.cache
+C:\SEShell\C#\Assignment1\Assignment1\bin\Debug\net7.0\Assignment1.exe
+C:\SEShell\C#\Assignment1\Assignment1\bin\Debug\net7.0\Assignment1.deps.json
+C:\SEShell\C#\Assignment1\Assignment1\bin\Debug\net7.0\Assignment1.runtimeconfig.json
+C:\SEShell\C#\Assignment1\Assignment1\bin\Debug\net7.0\Assignment1.dll
+C:\SEShell\C#\Assignment1\Assignment1\bin\Debug\net7.0\Assignment1.pdb
+C:\SEShell\C#\Assignment1\Assignment1\obj\Debug\net7.0\Assignment1.dll
+C:\SEShell\C#\Assignment1\Assignment1\obj\Debug\net7.0\refint\Assignment1.dll
+C:\SEShell\C#\Assignment1\Assignment1\obj\Debug\net7.0\Assignment1.pdb
+C:\SEShell\C#\Assignment1\Assignment1\obj\Debug\net7.0\Assignment1.genruntimeconfig.cache
+C:\SEShell\C#\Assignment1\Assignment1\obj\Debug\net7.0\ref\Assignment1.dll
