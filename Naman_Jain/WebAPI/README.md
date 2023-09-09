@@ -1,4 +1,7 @@
-
+## Package Manager Console
+```bash
+scaffold-dbcontext "Host=localhost; database=DataBaseName; username=username; password=password; "Npgsql.EntityFrameworkCore.PostgreSQL" -outputdir Models
+```
 
 
 
