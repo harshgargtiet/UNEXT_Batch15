@@ -62,10 +62,9 @@ const StudentCRUDwithUI = () => {
     <div>
       <h1>Student CRUD Operations</h1>
       <h2>Create Student</h2>
-      <h3>{students}</h3>
       <input
         type="text"
-        placeholder="Id"
+        placeholder="Roll number"
         value={newStudent.rollno}
         onChange={(e) =>
           setNewStudent({ ...newStudent, rollno: e.target.value })
@@ -95,13 +94,7 @@ const StudentCRUDwithUI = () => {
             {
             editStudent === student.rollno ? (
               <React.Fragment>
-                <input
-                  type="text"
-                  value={editStudent.rollno}
-                  onChange={(e) =>
-                    setEditStudent({ ...editStudent, rollno: e.target.value })
-                  }
-                />
+              
                 <input
                   type="text"
                   placeholder="Name"

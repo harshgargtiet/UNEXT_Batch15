@@ -52,7 +52,7 @@ namespace StudentDetails.Controllers
             return students;
         }
 
-        [HttpPut]
+        [HttpPut("{rollno}")]
         public async Task<ActionResult<Student>> UpdateStudent(int rollno, Student student)
         {
             try
@@ -65,7 +65,7 @@ namespace StudentDetails.Controllers
             }
         }
 
-        [HttpDelete]
+        [HttpDelete("{rollno}")]
         [Authorize(Roles = "admin")]
         public async Task<ActionResult<List<Student>>> DeleteStudent(int rollno)
         {
