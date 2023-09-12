@@ -30,6 +30,18 @@ builder.Services.AddScoped<IStudent, StudentService>();
 builder.Services.AddScoped<IUser, UserService>();
 builder.Services.AddScoped<IToken, TokenService>();
 // put all the configurations details before building app
+
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("CorsPolicy", builder =>
+    {
+        builder.AllowAnyHeader();
+        builder.AllowAnyMethod();
+        builder.AllowAnyOrigin();
+    });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
